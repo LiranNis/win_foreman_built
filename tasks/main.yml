@@ -1,4 +1,4 @@
 ---
-win_shell: wget {{ BuiltURL }}
+- win_shell: wget {{ built_url }}
   args:
     executable: cmd
