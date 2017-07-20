@@ -1,0 +1,4 @@
+---
+win_shell: wget {{ BuiltURL }}
+  args:
+    executable: cmd
